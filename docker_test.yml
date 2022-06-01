@@ -1,0 +1,15 @@
+---
+
+- hosts: all
+  vars:
+    - workstation_user: jrh
+    - workstation_group: jrh
+
+  tasks:
+
+    # Package Manager
+    - name: Update packages
+      become: true
+      ansible.builtin.package:
+        name: "*"
+        state: latest

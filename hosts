@@ -1,0 +1,2 @@
+[all]
+fedora_vm ansible_host=192.168.66.8 ansible_user=jrh 
