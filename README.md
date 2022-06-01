@@ -1,4 +1,4 @@
-# workstation-setup
+[![Docker Image CI](https://github.com/joshua1571/ansible-docker/actions/workflows/docker-image.yml/badge.svg)](https://github.com/joshua1571/ansible-docker/actions/workflows/docker-image.yml)
 
 # Get rid of old containers
 docker container prune -f
